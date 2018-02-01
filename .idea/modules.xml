@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cornbot.iml" filepath="$PROJECT_DIR$/.idea/modules/Cornbot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cornbot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Cornbot_main.iml" group="Cornbot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cornbot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Cornbot_test.iml" group="Cornbot" />
+    </modules>
+  </component>
+</project>

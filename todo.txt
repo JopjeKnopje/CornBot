@@ -1,0 +1,8 @@
+make abstract command class to inherit from
+and set properties
+
+this.command
+this.help
+
+example:
+https://github.com/Kaaz/DiscordBot/blob/master/src/main/java/emily/command/informative/PingCommand.java
