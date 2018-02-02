@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717f681e-3f8d-4126-a416-305a27da4ed4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sedmelluq_lavaplayer_1_2_45.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sedmelluq_lavaplayer_common_1_0_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_iharder_base64_2_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_10_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audio/AudioPlayerSendHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audio/GuildMusicManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audio/TrackScheduler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/annotation-processors.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/annotation-processors.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/fileContent/fileContent.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/jvmClassSignatures.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/3.5-rc-2/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/jopjeknopje/bot/cornbot/Ping.class" afterPath="$PROJECT_DIR$/build/classes/main/jopjeknopje/bot/cornbot/Ping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/jopjeknopje/bot/cornbot/Test.class" afterPath="$PROJECT_DIR$/build/classes/main/jopjeknopje/bot/cornbot/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/Cornbot-1.0-SNAPSHOT-all.jar" afterPath="$PROJECT_DIR$/build/libs/Cornbot-1.0-SNAPSHOT-all.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/jopjeknopje/bot/cornbot/Ping.class" afterPath="$PROJECT_DIR$/out/production/classes/jopjeknopje/bot/cornbot/Ping.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/jopjeknopje/bot/cornbot/Test.class" afterPath="$PROJECT_DIR$/out/production/classes/jopjeknopje/bot/cornbot/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Cornbot_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Cornbot_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Cornbot_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/Cornbot_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" afterPath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/Ping.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/Ping.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/Test.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/Test.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -931,12 +896,20 @@
       <workItem from="1517517763734" duration="2739000" />
       <workItem from="1517559179066" duration="288000" />
       <workItem from="1517559494570" duration="232000" />
-      <workItem from="1517559783094" duration="8767000" />
+      <workItem from="1517559783094" duration="8878000" />
     </task>
+    <task id="LOCAL-00001" summary="Added lavaplayer">
+      <created>1517583013796</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1517583013796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12026000" />
+    <option name="totallyTimeSpent" value="12137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,6 +960,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added lavaplayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lavaplayer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
