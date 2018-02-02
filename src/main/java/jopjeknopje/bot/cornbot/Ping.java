@@ -1,24 +1,19 @@
 package jopjeknopje.bot.cornbot;
 
-        import net.dv8tion.jda.core.EmbedBuilder;
-        import net.dv8tion.jda.core.entities.Message;
-        import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-        import net.dv8tion.jda.core.hooks.ListenerAdapter;
+import net.dv8tion.jda.core.EmbedBuilder;
+import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-        import java.awt.*;
-        import java.util.Date;
+import java.awt.*;
 
 public class Ping extends ListenerAdapter
 {
-    private static long inputTime;
-
 
     public void onMessageReceived(MessageReceivedEvent event)
     {
         if (event.getMessage().getContentRaw().equals("!ping"))
         {
             long ping = event.getJDA().getPing();
-            ping = 500;
             event.getTextChannel().sendMessage(new EmbedBuilder().setColor(getColorByPing(ping)).setDescription("Pong! " + ping + "ms").build()).queue();
 
 
