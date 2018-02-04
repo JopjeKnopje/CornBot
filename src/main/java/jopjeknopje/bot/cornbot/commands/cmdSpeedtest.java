@@ -5,6 +5,7 @@ import fr.bmartel.speedtest.SpeedTestSocket;
 import fr.bmartel.speedtest.inter.ISpeedTestListener;
 import fr.bmartel.speedtest.model.SpeedTestError;
 import jopjeknopje.bot.cornbot.core.permsCore;
+import jopjeknopje.bot.cornbot.util.STATICS;
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
@@ -28,7 +29,7 @@ public class cmdSpeedtest implements Command {
         SpeedTestSocket upSpeed = new SpeedTestSocket();
         StringBuilder sb = new StringBuilder();
 
-        Message msg = event.getTextChannel().sendMessage(new EmbedBuilder().setColor(new Color(123, 39, 163)).setDescription("**:loudspeaker: Speed test running...**\n\nTesting downstream with 10MB file...").build()).complete();
+        Message msg = event.getTextChannel().sendMessage(new EmbedBuilder().setColor(STATICS.PURPLE).setDescription("**:loudspeaker: Speed test running...**\n\nTesting downstream with 10MB file...").build()).complete();
 
         downSpeed.addSpeedTestListener(new ISpeedTestListener() {
             @Override

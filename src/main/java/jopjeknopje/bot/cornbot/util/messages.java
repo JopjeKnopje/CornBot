@@ -2,6 +2,7 @@ package jopjeknopje.bot.cornbot.util;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Message;
+import net.dv8tion.jda.core.entities.TextChannel;
 import net.dv8tion.jda.core.entities.User;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 
@@ -29,7 +30,7 @@ public class messages {
                 .setColor(new Color(123, 39, 163))
                 .setTitle("**" + ":loudspeaker: " + title + "**")
                 .setDescription(content)
-                .build()).complete();
+                .build()).queue();
 
     }
 
@@ -39,14 +40,24 @@ public class messages {
                 .setTitle("**" + ":loudspeaker: " + title + "**")
                 .setDescription(content)
                 .build()).complete();
-
         new Timer().schedule(new TimerTask() {
             @Override
             public void run() {
                 msg.delete().queue();
             }
         }, delay);
+    }
+
+    public static void notification(String title, String content, TextChannel channel) {
+        channel.sendMessage(new EmbedBuilder()
+                .setColor(new Color(123, 39, 163))
+                .setTitle("**" + ":loudspeaker: " + title + "**")
+                .setDescription(content)
+                .build()).queue();
+
+
 
     }
+
 
 }
