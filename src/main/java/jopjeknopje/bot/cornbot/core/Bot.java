@@ -2,6 +2,7 @@ package jopjeknopje.bot.cornbot.core;
 
 import jopjeknopje.bot.cornbot.commands.*;
 import jopjeknopje.bot.cornbot.listeners.commandListener;
+import jopjeknopje.bot.cornbot.listeners.readyListener;
 import jopjeknopje.bot.cornbot.listeners.voiceListener;
 import jopjeknopje.bot.cornbot.util.STATICS;
 import net.dv8tion.jda.core.AccountType;
@@ -51,9 +52,6 @@ public class Bot {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-
-
     }
 
     private static void addCommands() {
@@ -63,6 +61,7 @@ public class Bot {
         commandHandler.commands.put("", new cmdInvalid());
         commandHandler.commands.put("speed", new cmdSpeedtest());
         commandHandler.commands.put("random", new cmdRandom());
+        commandHandler.commands.put("gas", new cmdGas());
     }
 
 
@@ -70,7 +69,5 @@ public class Bot {
 //        builder.addEventListener(new readyListener());
         builder.addEventListener(new voiceListener());
         builder.addEventListener(new commandListener());
-
     }
-
 }

@@ -1,6 +1,9 @@
 package jopjeknopje.bot.cornbot.util;
 
+import net.dv8tion.jda.core.entities.Member;
+
 import java.awt.*;
+import java.util.HashMap;
 
 public class STATICS {
 
@@ -12,7 +15,8 @@ public class STATICS {
     public static final String PERMISSION = "BOT-COMMANDER";
     public static final int MAXREMOVE = 50;
     public static final int NOTIFY_DELAY = 1500;
-    public static final String RANDOM_API_KEY = "c9cef84f-208e-48b0-b7fa-c3eef3c1fb63";
     public static final Color PURPLE = new Color(123, 39, 163);
+    public static final String GASCHAMBER_NAME = "gas chamber";
+    public static final HashMap<Member, Boolean> GAS_MEMBERS = new HashMap<>();
 
 }

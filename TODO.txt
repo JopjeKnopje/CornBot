@@ -1,7 +1,7 @@
 functions:
 1. Timer that dms the user if the time runs out
 2. Music
-3. Move to gas chamber
+3. Private message help
 4. Help command
 5. Vote poll
 6. Random hiddenlol meme
@@ -13,11 +13,18 @@ functions:
 12. Commands for images of emojis
 13. Random cat images
 14. Google search
-15. Private message help
+15. Geef elkaar maar de hand
+16. Add dev commands
+17. Keep member is gaschamber
 
 
 
 
+16: !!restart, !!stop, !!reload
+
+
+
+X. Move to gas chamber
 X. Notify when user joins / leaves / moves voice channel in log channel
 X. Random number
 X. Speedtest command
