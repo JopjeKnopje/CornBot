@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717f681e-3f8d-4126-a416-305a27da4ed4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -49,6 +47,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Cornbot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Cornbot" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Cornbot" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -78,20 +87,30 @@
       <file leaf-file-name="AudioInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrackManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TrackManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-385">
@@ -102,6 +121,16 @@
                 <element signature="e#1131#1132#0" expanded="true" />
                 <element signature="e#1160#1161#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="STATICS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -597,8 +626,8 @@
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdPing.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" />
       </list>
     </option>
   </component>
@@ -647,7 +676,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages Scope="false" />
       <showMembers Scope="false" />
       <showModules />
@@ -696,6 +725,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cornbot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cornbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CornBot" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cornbot" type="462c0819:PsiDirectoryNode" />
+              <item name="audioCore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cornbot" type="b2602c69:ProjectViewProjectNode" />
@@ -779,6 +817,15 @@
               <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
               <item name="audioCore" type="cbb8eebc:String" user="audioCore" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
+              <item name="util" type="cbb8eebc:String" user="util" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -792,7 +839,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35747126" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/random.org-client.jar!/" />
-    <property name="SearchEverywhereHistoryKey" value="tod&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/TODO.txt&#10;inspect&#9;ACTION&#9;InspectCode" />
+    <property name="SearchEverywhereHistoryKey" value="git&#9;ACTION&#9;Git.Init&#10;tod&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/TODO.txt&#10;inspect&#9;ACTION&#9;InspectCode" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
@@ -814,7 +861,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bot">
+  <component name="RunManager" selected="Gradle.Cornbot [shadowJar]">
     <configuration name="Bot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1009,7 +1056,7 @@
       <workItem from="1517745292666" duration="223000" />
       <workItem from="1517745535741" duration="5471000" />
       <workItem from="1517751114209" duration="105000" />
-      <workItem from="1517753458881" duration="8898000" />
+      <workItem from="1517753458881" duration="10628000" />
     </task>
     <task id="LOCAL-00001" summary="End my suffering">
       <created>1517590119757</created>
@@ -1032,11 +1079,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517761889992</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started Music stuff">
+      <created>1517767171837</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517767171837</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62095000" />
+    <option name="totallyTimeSpent" value="63825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1049,7 +1103,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1059,7 +1112,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3322185" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3322185" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1067,7 +1120,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.4960981" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1171,8 @@
     <MESSAGE value="End my suffering" />
     <MESSAGE value="Added speedtest command" />
     <MESSAGE value="Updated ping command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated ping command" />
+    <MESSAGE value="Started Music stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Music stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1201,14 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdSpeedtest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1270,20 +1316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-385">
@@ -1294,6 +1326,36 @@
             <element signature="e#1131#1132#0" expanded="true" />
             <element signature="e#1160#1161#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,6 @@ package jopjeknopje.bot.cornbot.audioCore;
 
 import com.sedmelluq.discord.lavaplayer.track.AudioTrack;
 import net.dv8tion.jda.core.entities.Member;
-import net.dv8tion.jda.core.entities.TextChannel;
 
 public class AudioInfo {
 
