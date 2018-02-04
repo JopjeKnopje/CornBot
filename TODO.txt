@@ -1,0 +1,27 @@
+functions:
+1. Timer that dms the user if the time runs out
+2. Music
+3. Move to gas chamber
+
+5. Vote poll
+6. Random hiddenlol meme
+7. Notify when user joins / leaves / moves voice channel in log channel
+8. Get steam profile info with Steam condenser
+9. Mute me when in "doing stuff but not afk"
+10. Automatically translate foreign languages into english / dutch with the google api
+11. Auto move peoples
+12. Commands for images of emojis
+13. Random cat images
+14. Google search
+15. Private message help
+16. Replace STATICS.java with a json file
+
+
+
+
+X. Random number
+X. Speedtest command
+
+
+https://github.com/bertrandmartel/speed-test-lib
+https://github.com/koraktor/steam-condenser-java

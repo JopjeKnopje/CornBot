@@ -4,7 +4,7 @@ plugins {
     id'com.github.johnrengelman.shadow' version '2.0.1'
 }
 
-mainClassName = 'jopjeknopje.bot.cornbot.Bot.java'
+mainClassName = 'jopjeknopje.bot.cornbot.core.Bot.java'
 
 group 'JopjeKnopje'
 version '1.0-SNAPSHOT'
@@ -23,6 +23,7 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile "net.dv8tion:JDA:$jdaVersion"
     compile 'com.sedmelluq:lavaplayer:1.2.45'
+    compile 'fr.bmartel:jspeedtest:1.31.3'
 
 }
 compileJava.options.encoding = 'UTF-8'
