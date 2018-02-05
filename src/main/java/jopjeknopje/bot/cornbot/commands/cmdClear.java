@@ -4,15 +4,11 @@ import jopjeknopje.bot.cornbot.core.permsCore;
 import jopjeknopje.bot.cornbot.util.STATICS;
 import jopjeknopje.bot.cornbot.util.intParser;
 import jopjeknopje.bot.cornbot.util.messages;
-import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Message;
 import net.dv8tion.jda.core.entities.MessageHistory;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 
-import java.awt.*;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 /**
  * TODO: Add permission check
@@ -32,14 +28,14 @@ public class cmdClear implements Command {
         if(!permsCore.hasPermission(event)) return;
 
         if(args.length < 1) {
-            messages.error("Invalid argument!", "You must enter a number between 2 and " + STATICS.MAXREMOVE, event);
+            messages.error("Invalid argument!", "You must enter a number between 2 and " + STATICS.MAX_REMOVE, event);
             return;
         }
 
 
         int amount = intParser.getInt(args[0]);
 //        System.out.println(amount); // for debugging
-        if(amount >= 2 && amount <= STATICS.MAXREMOVE) {
+        if(amount >= 2 && amount <= STATICS.MAX_REMOVE) {
             amount++;
 
 
@@ -54,7 +50,7 @@ public class cmdClear implements Command {
         }
 
         else {
-            messages.error("Invalid argument!", "You must enter a number between 2 and " + STATICS.MAXREMOVE, event);
+            messages.error("Invalid argument!", "You must enter a number between 2 and " + STATICS.MAX_REMOVE, event);
             return;
         }
     }

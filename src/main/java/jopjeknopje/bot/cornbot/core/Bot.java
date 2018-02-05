@@ -20,7 +20,7 @@ public class Bot {
     public static void main(String[] arguments) throws Exception {
         builder = new JDABuilder(AccountType.BOT);
 
-        builder.setToken(STATICS.TOKEN);
+        builder.setToken(STATICS.BOT_TOKEN);
         builder.setAutoReconnect(true);
 
         builder.setStatus(OnlineStatus.ONLINE);
@@ -28,7 +28,7 @@ public class Bot {
         builder.setGame(new Game("") {
             @Override
             public String getName() {
-                return "v" + STATICS.VERSION;
+                return "v" + STATICS.BOT_VERSION;
             }
 
             @Override
@@ -66,7 +66,7 @@ public class Bot {
 
 
     private static void addListeners() {
-//        builder.addEventListener(new readyListener());
+        builder.addEventListener(new readyListener());
         builder.addEventListener(new voiceListener());
         builder.addEventListener(new commandListener());
     }
