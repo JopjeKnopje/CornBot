@@ -19,4 +19,5 @@ public class STATICS {
     public static final String GASCHAMBER_NAME = "gas chamber";
     public static final HashMap<Member, Boolean> GAS_MEMBERS = new HashMap<>();
     public static final String CORNHUB_ID = "237145255760232450";
+    public static final String GIPHY_API_KEY = "39FqA9y1KlIOgO9vX0kcksspLtm6tfqC";
 }

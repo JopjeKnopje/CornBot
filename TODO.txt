@@ -16,6 +16,7 @@ functions:
 16. Add dev commands
 18. Add anti spam to !poke
 19. Add listener when user join server it gets added to gasmembers
+20. Teamspeak sound effects
 
 
 16: !!restart, !!stop, !!reload

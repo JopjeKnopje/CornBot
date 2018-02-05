@@ -28,7 +28,7 @@ public class Bot {
         builder.setGame(new Game("") {
             @Override
             public String getName() {
-                return "v" + STATICS.BOT_VERSION;
+                return "!help | v" + STATICS.BOT_VERSION;
             }
 
             @Override

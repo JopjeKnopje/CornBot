@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717f681e-3f8d-4126-a416-305a27da4ed4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/gasMember.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/giphy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/JopjeKnopje.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/JopjeKnopje.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/Cornbot_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/Cornbot_main.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.txt" afterPath="$PROJECT_DIR$/TODO.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/messages.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/messages.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,23 +78,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readyListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/readyListener.java">
+      <file leaf-file-name="Bot.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="219">
+              <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TODO.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TODO.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="378">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -567,7 +573,6 @@
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/speedtestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdPoke.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/messages.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdSpeedtest.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdPing.java" />
@@ -577,11 +582,14 @@
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdExcuse.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/GLOBALS.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/gasMember.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/readyListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/voiceListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/messages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdCat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/giphy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java" />
         <option value="$PROJECT_DIR$/TODO.txt" />
       </list>
     </option>
@@ -858,8 +866,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35747126" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/random.org-client.jar!/" />
-    <property name="SearchEverywhereHistoryKey" value="bot&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java&#10;cmdgas&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java&#10;git&#9;ACTION&#9;Git.Menu&#10;tod&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/TODO.txt&#10;inspect&#9;ACTION&#9;InspectCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../libs/giphy4j-1.0.1.jar!/" />
+    <property name="SearchEverywhereHistoryKey" value="gas&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java&#10;statics&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java&#10;bot&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java&#10;cmdgas&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java&#10;git&#9;ACTION&#9;Git.Menu&#10;tod&#9;FILE&#9;file://C:/Stuff/Programming/Java/CornBot/TODO.txt&#10;inspect&#9;ACTION&#9;InspectCode" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
@@ -1077,7 +1085,7 @@
       <workItem from="1517745535741" duration="5471000" />
       <workItem from="1517751114209" duration="105000" />
       <workItem from="1517753458881" duration="20518000" />
-      <workItem from="1517839042789" duration="9702000" />
+      <workItem from="1517839042789" duration="12416000" />
     </task>
     <task id="LOCAL-00001" summary="End my suffering">
       <created>1517590119757</created>
@@ -1128,11 +1136,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517858686254</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added toggle to gas command">
+      <created>1517859890595</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1517859890595</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83417000" />
+    <option name="totallyTimeSpent" value="86131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,7 +1160,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1156,12 +1170,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3322185" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3322185" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19829424" sideWeight="0.4960981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18763326" sideWeight="0.4960981" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1175,7 +1190,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1303,6 +1317,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#1697#1698#0" expanded="false" />
+            <element signature="e#1733#1734#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,21 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="233" column="32" lean-forward="false" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdClear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdPoke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1458,16 +1461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/gasMember.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1484,24 +1477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="39" column="47" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.5.0_327/93659cd13cf9d929c03717fc10355be7bfe29ebb/JDA-3.5.0_327-sources.jar!/net/dv8tion/jda/core/entities/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -1510,24 +1485,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/readyListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="111">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1715#1716#0" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1906#1907#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/readyListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/STATICS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="378">
+          <caret line="21" column="82" lean-forward="false" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdGas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdPoke.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="55" column="34" lean-forward="false" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdClear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/giphy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1536,9 +1562,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TODO.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="378">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
