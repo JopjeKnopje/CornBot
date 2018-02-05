@@ -3,6 +3,7 @@ package jopjeknopje.bot.cornbot.commands;
 import jopjeknopje.bot.cornbot.core.permsCore;
 import jopjeknopje.bot.cornbot.util.STATICS;
 import jopjeknopje.bot.cornbot.util.messages;
+import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.VoiceChannel;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.managers.GuildController;
@@ -24,6 +25,7 @@ public class cmdGas implements Command {
                     if (args[1].equals("toggle")) {
                         STATICS.GAS_MEMBERS.put(event.getMessage().getMentionedMembers().get(0), !STATICS.GAS_MEMBERS.get(event.getMessage().getMentionedMembers().get(0)));
                         gc.moveVoiceMember(event.getMessage().getMentionedMembers().get(0), vc).queue();
+
                     }
                     break;
 

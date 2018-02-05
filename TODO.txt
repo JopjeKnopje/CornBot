@@ -8,14 +8,14 @@ functions:
 8. Get steam profile info with Steam condenser
 9. Mute me when in "doing stuff but not afk"
 10. Automatically translate foreign languages into english / dutch with the google api
-11. Auto move peoples
+11. Auto move people
 12. Commands for images of emojis
 13. Random cat images
 14. Google search
 15. Geef elkaar maar de hand
 16. Add dev commands
 18. Add anti spam to !poke
-
+19. Add listener when user join server it gets added to gasmembers
 
 
 16: !!restart, !!stop, !!reload
