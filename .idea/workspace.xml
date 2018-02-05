@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717f681e-3f8d-4126-a416-305a27da4ed4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdMusic.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -1109,7 +1108,7 @@
       <workItem from="1517745535741" duration="5471000" />
       <workItem from="1517751114209" duration="105000" />
       <workItem from="1517753458881" duration="20518000" />
-      <workItem from="1517839042789" duration="15432000" />
+      <workItem from="1517839042789" duration="15441000" />
     </task>
     <task id="LOCAL-00001" summary="End my suffering">
       <created>1517590119757</created>
@@ -1174,11 +1173,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517862620690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Started music stuff">
+      <created>1517865627585</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1517865627585</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89147000" />
+    <option name="totallyTimeSpent" value="89156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1265,7 +1271,8 @@
     <MESSAGE value="Started on gas command" />
     <MESSAGE value="Added toggle to gas command" />
     <MESSAGE value="Started giphy stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started giphy stuff" />
+    <MESSAGE value="Started music stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started music stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
