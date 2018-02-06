@@ -207,8 +207,6 @@ public class cmdMusic implements Command {
                 ).queue();
                 break;
 
-
-
             case "queue":
                 if (isIdle(guild)) return;
                 int sideNumb = args.length > 1 ? Integer.parseInt(args[1]) : 1;
