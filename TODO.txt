@@ -17,6 +17,10 @@ functions:
 18. Add anti spam to !poke
 19. Add listener when user join server it gets added to gasmembers
 20. Teamspeak sound effects
+21. Save current queue to playlist
+22. When entering a youtube searchterm display a menu with top 5 results
+23. Hitler speech
+24. Soundboard stuff
 
 
 16: !!restart, !!stop, !!reload

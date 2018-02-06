@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="717f681e-3f8d-4126-a416-305a27da4ed4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/JopjeKnopje.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/JopjeKnopje.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.txt" afterPath="$PROJECT_DIR$/TODO.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/PlayerSendHandler.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/PlayerSendHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdMusic.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdMusic.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java" afterPath="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,14 +73,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cmdMusic.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cmdMusic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdMusic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="233" column="51" lean-forward="false" selection-start-line="233" selection-start-column="48" selection-end-line="233" selection-end-column="51" />
+            <state relative-caret-position="381">
+              <caret line="226" column="46" lean-forward="false" selection-start-line="226" selection-start-column="46" selection-end-line="226" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2702#2703#0" expanded="true" />
+                <element signature="e#2772#2773#0" expanded="true" />
+                <element signature="e#3388#3389#0" expanded="true" />
+                <element signature="e#3428#3429#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TODO.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TODO.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,6 +112,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>audioInfo</find>
+      <find>MAX</find>
+      <find>20</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -580,12 +591,12 @@
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdCat.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/util/giphy.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/Music.java" />
-        <option value="$PROJECT_DIR$/TODO.txt" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/PlayerSendHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdMusic.java" />
+        <option value="$PROJECT_DIR$/TODO.txt" />
       </list>
     </option>
   </component>
@@ -602,10 +613,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -648,64 +658,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
-              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
-              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
-              <item name="src/main" type="cbb8eebc:String" user="src/main" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
-              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
-              <item name="src/main" type="cbb8eebc:String" user="src/main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
-              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
-              <item name="src/main" type="cbb8eebc:String" user="src/main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
-              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
-              <item name="src/main" type="cbb8eebc:String" user="src/main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
-              <item name="audioCore" type="cbb8eebc:String" user="audioCore" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
-              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
-              <item name="src/main" type="cbb8eebc:String" user="src/main" />
-              <item name="java" type="cbb8eebc:String" user="java" />
-              <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
-              <item name="util" type="cbb8eebc:String" user="util" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -791,32 +743,6 @@
             <path>
               <item name="Cornbot" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Cornbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cornbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cornbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="audio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cornbot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Gradle: net.dv8tion:JDA:3.5.0_327" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
@@ -847,12 +773,70 @@
               <item name="JDA-3.5.0_327.jar" type="462c0819:PsiDirectoryNode" />
               <item name="jda" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="hooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
+              <item name="audioCore" type="cbb8eebc:String" user="audioCore" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Cornbot" type="cbb8eebc:String" user="Cornbot" />
+              <item name="Cornbot_main" type="cbb8eebc:String" user="Cornbot_main" />
+              <item name="src/main" type="cbb8eebc:String" user="src/main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="jopjeknopje/bot/cornbot" type="cbb8eebc:String" user="jopjeknopje/bot/cornbot" />
+              <item name="util" type="cbb8eebc:String" user="util" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1085,7 +1069,8 @@
       <workItem from="1517753458881" duration="20518000" />
       <workItem from="1517839042789" duration="15467000" />
       <workItem from="1517903957678" duration="7121000" />
-      <workItem from="1517918205120" duration="1477000" />
+      <workItem from="1517918205120" duration="5251000" />
+      <workItem from="1517924222434" duration="2550000" />
     </task>
     <task id="LOCAL-00001" summary="End my suffering">
       <created>1517590119757</created>
@@ -1171,11 +1156,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517865637862</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished music part">
+      <created>1517919709167</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1517919709167</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97780000" />
+    <option name="totallyTimeSpent" value="104104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1198,12 +1190,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27313265" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27201784" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19189766" sideWeight="0.4960981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17643923" sideWeight="0.4960981" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1609808" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1263,11 +1255,12 @@
     <MESSAGE value="Added toggle to gas command" />
     <MESSAGE value="Started giphy stuff" />
     <MESSAGE value="Started music stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started music stuff" />
+    <MESSAGE value="Finished music part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished music part" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1276,6 +1269,28 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3428#3429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/core/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1300,6 +1315,10 @@
           <caret line="144" column="56" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3428#3429#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1320,6 +1339,10 @@
           <caret line="115" column="66" lean-forward="false" selection-start-line="115" selection-start-column="66" selection-end-line="115" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3428#3429#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1328,6 +1351,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1336,7 +1360,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1346,7 +1370,7 @@
         <state relative-caret-position="288">
           <caret line="19" column="79" lean-forward="true" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1366,6 +1390,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,13 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.5.0_327/93659cd13cf9d929c03717fc10355be7bfe29ebb/JDA-3.5.0_327-sources.jar!/net/dv8tion/jda/core/hooks/ListenerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="233" column="32" lean-forward="false" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1493,16 +1511,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/readyListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1511,7 +1520,7 @@
         <state relative-caret-position="378">
           <caret line="21" column="82" lean-forward="false" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1521,7 +1530,7 @@
         <state relative-caret-position="165">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1556,13 +1565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODO.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="69" selection-end-line="35" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/AudioInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1575,14 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1613,13 +1607,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/audioCore/TrackManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.dv8tion/JDA/3.5.0_327/93659cd13cf9d929c03717fc10355be7bfe29ebb/JDA-3.5.0_327-sources.jar!/net/dv8tion/jda/core/hooks/ListenerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3571">
+          <caret line="111" column="22" lean-forward="false" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/listeners/readyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jopjeknopje/bot/cornbot/commands/cmdMusic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="233" column="51" lean-forward="false" selection-start-line="233" selection-start-column="48" selection-end-line="233" selection-end-column="51" />
+        <state relative-caret-position="381">
+          <caret line="226" column="46" lean-forward="false" selection-start-line="226" selection-start-column="46" selection-end-line="226" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2772#2773#0" expanded="true" />
+            <element signature="e#3388#3389#0" expanded="true" />
+            <element signature="e#3428#3429#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

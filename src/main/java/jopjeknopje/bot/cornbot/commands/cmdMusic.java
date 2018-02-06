@@ -85,10 +85,8 @@ public class cmdMusic implements Command {
                     getManager(guild).queue(playlist.getTracks().get(i), author);
                 }
             }
-
             @Override
             public void noMatches() {
-
             }
 
             @Override
@@ -214,10 +212,8 @@ public class cmdMusic implements Command {
             case "queue":
                 if (isIdle(guild)) return;
                 int sideNumb = args.length > 1 ? Integer.parseInt(args[1]) : 1;
-
                 List<String> tracks = new ArrayList<>();
                 List<String> trackSublist;
-
                 getManager(guild).getQueue().forEach(audioInfo -> tracks.add(buildQueueMessage(audioInfo)));
                 if (tracks.size() > 20)
                     trackSublist = tracks.subList((sideNumb-1)*20, (sideNumb-1)*20+20);
@@ -237,8 +233,6 @@ public class cmdMusic implements Command {
                 ).queue();
                 break;
         }
-
-
     }
 
     @Override
