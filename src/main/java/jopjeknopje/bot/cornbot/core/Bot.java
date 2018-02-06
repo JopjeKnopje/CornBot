@@ -62,6 +62,9 @@ public class Bot {
         commandHandler.commands.put("speed", new cmdSpeedtest());
         commandHandler.commands.put("random", new cmdRandom());
         commandHandler.commands.put("gas", new cmdGas());
+        commandHandler.commands.put("music", new cmdMusic());
+        commandHandler.commands.put("m", new cmdMusic());
+
     }
 
 

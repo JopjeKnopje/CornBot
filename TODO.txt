@@ -32,3 +32,5 @@ X. Speedtest command
 
 https://github.com/bertrandmartel/speed-test-lib
 https://github.com/koraktor/steam-condenser-java
+
+https://youtu.be/BSsRrquEZSU?list=PLthqW7GiLEwIGov-iGVe0FPZKCufBzxlU 17:53

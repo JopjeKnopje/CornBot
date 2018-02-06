@@ -8,9 +8,9 @@ public class AudioInfo {
     private final AudioTrack TRACK;
     private final Member AUTHOR;
 
-    AudioInfo(AudioTrack track, Member author) {
-        AUTHOR = author;
-        TRACK = track;
+    public AudioInfo(AudioTrack track, Member author) {
+        this.TRACK = track;
+        this.AUTHOR = author;
     }
 
     public AudioTrack getTrack() {
@@ -20,5 +20,5 @@ public class AudioInfo {
     public Member getAuthor() {
         return AUTHOR;
     }
-}
 
+}

@@ -16,27 +16,29 @@ public class TrackManager extends AudioEventAdapter {
     private final AudioPlayer PLAYER;
     private final Queue<AudioInfo> queue;
 
-    public TrackManager(AudioPlayer PLAYER) {
-        this.PLAYER = PLAYER;
-        queue = new LinkedBlockingQueue<>();
+
+    public TrackManager(AudioPlayer player) {
+        this.PLAYER = player;
+        this.queue = new LinkedBlockingQueue<>();
     }
 
     public void queue(AudioTrack track, Member author) {
         AudioInfo info = new AudioInfo(track, author);
         queue.add(info);
 
-        if(PLAYER.getPlayingTrack() == null) {
+        if (PLAYER.getPlayingTrack() == null) {
             PLAYER.playTrack(track);
         }
-
     }
 
     public Set<AudioInfo> getQueue() {
-        return  new LinkedHashSet<>(queue);
+        return new LinkedHashSet<>(queue);
     }
 
     public AudioInfo getInfo(AudioTrack track) {
-        return queue.stream().filter(info -> info.getTrack().equals(track)).findFirst().orElse(null);
+        return queue.stream()
+                .filter(info -> info.getTrack().equals(track))
+                .findFirst().orElse(null);
     }
 
     public void purgeQueue() {
@@ -53,24 +55,25 @@ public class TrackManager extends AudioEventAdapter {
         queue.addAll(cQueue);
     }
 
-    public void onTrackStart(AudioPlayer player, AudioPlayer track) {
+    @Override
+    public void onTrackStart(AudioPlayer player, AudioTrack track) {
         AudioInfo info = queue.element();
-        VoiceChannel vChannel = info.getAuthor().getVoiceState().getChannel();
+        VoiceChannel vChan = info.getAuthor().getVoiceState().getChannel();
 
-        if(vChannel == null) player.stopTrack();
-        else info.getAuthor().getGuild().getAudioManager().openAudioConnection(vChannel);
+        if (vChan == null)
+            player.stopTrack();
+        else
+            info.getAuthor().getGuild().getAudioManager().openAudioConnection(vChan);
     }
 
-    public void onTrackEnd(AudioPlayer player, AudioTrack audioTrack, AudioTrackEndReason endReason) {
+    @Override
+    public void onTrackEnd(AudioPlayer player, AudioTrack track, AudioTrackEndReason endReason) {
         Guild g = queue.poll().getAuthor().getGuild();
 
         if (queue.isEmpty())
             g.getAudioManager().closeAudioConnection();
         else
             player.playTrack(queue.element().getTrack());
-
-
     }
-
 
 }
