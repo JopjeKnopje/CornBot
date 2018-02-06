@@ -19,7 +19,7 @@ functions:
 22. When entering a youtube searchterm display a menu with top 5 results
 23. Hitler speech
 24. Soundboard stuff
-
+25. show info of discord user
 
 16: !!restart, !!stop, !!reload
 
