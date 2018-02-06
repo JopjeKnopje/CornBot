@@ -12,6 +12,8 @@ import com.sedmelluq.discord.lavaplayer.track.AudioTrackInfo;
 import jopjeknopje.bot.cornbot.audioCore.AudioInfo;
 import jopjeknopje.bot.cornbot.audioCore.PlayerSendHandler;
 import jopjeknopje.bot.cornbot.audioCore.TrackManager;
+import jopjeknopje.bot.cornbot.util.STATICS;
+import jopjeknopje.bot.cornbot.util.messages;
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Guild;
 import net.dv8tion.jda.core.entities.Member;
@@ -24,6 +26,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class cmdMusic implements Command {
+
+
+    private static final String NOTE = ":musical_note:  ";
 
     private static final int PLAYLIST_LIMIT = 1000;
     private static Guild guild;
@@ -209,10 +214,14 @@ public class cmdMusic implements Command {
 
             case "queue":
                 if (isIdle(guild)) return;
+
                 int sideNumb = args.length > 1 ? Integer.parseInt(args[1]) : 1;
+
                 List<String> tracks = new ArrayList<>();
                 List<String> trackSublist;
+
                 getManager(guild).getQueue().forEach(audioInfo -> tracks.add(buildQueueMessage(audioInfo)));
+
                 if (tracks.size() > 20)
                     trackSublist = tracks.subList((sideNumb-1)*20, (sideNumb-1)*20+20);
                 else
@@ -220,16 +229,29 @@ public class cmdMusic implements Command {
 
                 String out = trackSublist.stream().collect(Collectors.joining("\n"));
                 int sideNumbAll = tracks.size() >= 20 ? tracks.size() / 20 : 1;
-                event.getTextChannel().sendMessage(
-                        new EmbedBuilder()
-                                .setDescription(
-                                        "**CURRENT QUEUE:**\n" +
-                                                "*[" + getManager(guild).getQueue().stream() + " Tracks | Side " + sideNumb + " / " + sideNumbAll + "]*" +
-                                                out
-                                )
-                                .build()
-                ).queue();
+
+                messages.notification("CURRENT QUEUE | [" + getManager(guild).getQueue().stream().count() + " Tracks | Side " + sideNumb + " / " + sideNumbAll + "]", out, event);
+
                 break;
+
+            case "pause":
+            case "resume":
+                if(getPlayer(guild).isPaused()) {
+                    getPlayer(guild).setPaused(false);
+                    event.getGuild().getTextChannelsByName(STATICS.BOT_CHANNEL, true).get(0).sendMessage(NOTE + "Player resumed").queue();
+                    return;
+                } else {
+                    getPlayer(guild).setPaused(true);
+                    event.getGuild().getTextChannelsByName(STATICS.BOT_CHANNEL, true).get(0).sendMessage(NOTE + "Player paused").queue();
+                    return;
+                }
+
+
+
+        }
+        if(getPlayer(guild).isPaused()) {
+            getPlayer(guild).setPaused(false);
+            event.getGuild().getTextChannelsByName(STATICS.BOT_CHANNEL, true).get(0).sendMessage(NOTE + "Player resumed.").queue();
         }
     }
 
@@ -240,6 +262,16 @@ public class cmdMusic implements Command {
 
     @Override
     public String help() {
-        return null;
+        return
+                ":musical_note:  **MUSIC PLAYER**  :musical_note: \n\n" +
+                        "` -music play <yt/soundcloud - URL> `  -  Start playing a track / Add a track to queue / Add a playlist to queue\n" +
+                        "` -music playnext <yt/soundcloud - URL>  -  Add track or playlist direct after the current song in queue`\n" +
+                        "` -music ytplay <Search string for yt> `  -  Same like *play*, just let youtube search for a track you enter\n" +
+                        "` -music queue <Side>`  -  Show the current music queue\n" +
+                        "` -music skip `  -  Skip the current track in queue\n" +
+                        "` -music now `  -  Show info about the now playing track\n" +
+                        "` -music stop `  -  Stop the music player"
+                ;
+
     }
 }

@@ -19,7 +19,10 @@ functions:
 22. When entering a youtube searchterm display a menu with top 5 results
 23. Hitler speech
 24. Soundboard stuff
-25. show info of discord user
+25. Show info of discord user
+26. Blacklist user from using the bot
+27. Rules command to show to rules of the cornhub
+
 
 16: !!restart, !!stop, !!reload
 
@@ -34,4 +37,8 @@ X. Speedtest command
 https://github.com/bertrandmartel/speed-test-lib
 https://github.com/koraktor/steam-condenser-java
 
-https://youtu.be/BSsRrquEZSU?list=PLthqW7GiLEwIGov-iGVe0FPZKCufBzxlU 17:53
+https://youtu.be/BSsRrquEZSU?list=PLthqW7GiLEwIGov-iGVe0FZKCufBzxlU 17:53
+
+
+bugs
+1. handle exception when playlist is private

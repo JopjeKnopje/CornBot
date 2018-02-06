@@ -8,10 +8,10 @@ import java.util.HashMap;
 public class STATICS {
 
     public static final String BOT_VERSION = "1.0.0";
-    public static final String BOT_TOKEN = "MjkxMzA1NjQwNzQyMjIzODcy.DVTqww.atuPR5JLUgqT6tLEoK5Yx-nbG9g";
+    public static final String BOT_TOKEN = "MzAwMjI1NjcyMDQxNzI1OTUy.DVuViA.7BPVFkBPtatsjiDawPscetM0ARU";
     public static final String BOT_CHANNEL = "bot-spam"; // NOT CASE SENSITIVE!
     public static final String LOG_CHANNEL = "voicelog"; // NOT CASE SENSITIVE!
-    public static final String PREFIX = "!";
+    public static final String PREFIX = "~";
     public static final String COMMAND_ROLE = "BOT-COMMANDER";
     public static final int MAX_REMOVE = 50;
     public static final int NOTIFY_DELAY = 1500;
@@ -19,5 +19,4 @@ public class STATICS {
     public static final String GASCHAMBER_NAME = "gas chamber";
     public static final HashMap<Member, Boolean> GAS_MEMBERS = new HashMap<>();
     public static final String CORNHUB_ID = "237145255760232450";
-    public static final String GIPHY_API_KEY = "39FqA9y1KlIOgO9vX0kcksspLtm6tfqC";
 }

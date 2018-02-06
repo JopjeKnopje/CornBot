@@ -17,7 +17,7 @@ public class PlayerSendHandler implements AudioSendHandler {
     @Override
     public boolean canProvide() {
         if (lastFrame == null) {
-            lastFrame = audioPlayer.provide();
+            lastFrame = audioPlayer.provide(); // TODO: Fix bug https://github.com/DV8FromTheWorld/JDA/issues/485
         }
 
         return lastFrame != null;
