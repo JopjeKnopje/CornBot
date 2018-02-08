@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class STATICS {
 
     public static final String BOT_VERSION = "1.0.0";
-    public static final String BOT_TOKEN = "MzAwMjI1NjcyMDQxNzI1OTUy.DVuViA.7BPVFkBPtatsjiDawPscetM0ARU";
+    public static final String BOT_TOKEN = "";
     public static final String BOT_CHANNEL = "bot-spam"; // NOT CASE SENSITIVE!
     public static final String LOG_CHANNEL = "voicelog"; // NOT CASE SENSITIVE!
     public static final String PREFIX = "~";
@@ -19,4 +19,5 @@ public class STATICS {
     public static final String GASCHAMBER_NAME = "gas chamber";
     public static final HashMap<Member, Boolean> GAS_MEMBERS = new HashMap<>();
     public static final String CORNHUB_ID = "237145255760232450";
+    public static final String JSONFILE = "settings.json";
 }

@@ -24,7 +24,6 @@ public class cmdPing implements Command {
         Message msg = event.getChannel().sendMessage(new EmbedBuilder().setColor(STATICS.PURPLE).setDescription("Pong! ").build()).complete();
         long after = System.currentTimeMillis();
         msg.editMessage(new EmbedBuilder().setColor(STATICS.PURPLE).setTitle(":ping_pong:").setDescription("Pong! **" + (after - before + "ms**")).build()).queue();
-
     }
 
     @Override
