@@ -214,7 +214,6 @@ public class cmdMusic implements Command {
 
             case "queue":
                 if (isIdle(guild)) return;
-
                 int sideNumb = args.length > 1 ? Integer.parseInt(args[1]) : 1;
 
                 List<String> tracks = new ArrayList<>();

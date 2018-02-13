@@ -16,9 +16,11 @@ import javax.security.auth.login.LoginException;
 public class Bot {
 
     private static JDABuilder builder;
-
     public static void main(String[] arguments) throws Exception {
         builder = new JDABuilder(AccountType.BOT);
+
+
+        STATICS.setup();
 
         builder.setToken(STATICS.BOT_TOKEN);
         builder.setAutoReconnect(true);

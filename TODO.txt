@@ -21,7 +21,7 @@ functions:
 24. Soundboard stuff
 25. Show info of discord user
 26. Blacklist user from using the bot
-27. Rules command to show to rules of the cornhub
+27. Rules command to show to rules of the cornhub server
 
 
 16: !!restart, !!stop, !!reload

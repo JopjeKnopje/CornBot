@@ -3,6 +3,7 @@
     <words>
       <w>baaaack</w>
       <w>baaack</w>
+      <w>botchannel</w>
       <w>broer</w>
       <w>cornhub</w>
       <w>elkaar</w>
@@ -13,6 +14,7 @@
       <w>geef</w>
       <w>hashmap</w>
       <w>hiddenlol</w>
+      <w>jsonfile</w>
       <w>maar</w>
       <w>maxremove</w>
       <w>msgs</w>
@@ -20,6 +22,7 @@
       <w>speedtest</w>
       <w>sucess</w>
       <w>teamspeak</w>
+      <w>voicelog</w>
     </words>
   </dictionary>
 </component>

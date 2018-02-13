@@ -20,6 +20,7 @@ public class voiceListener extends ListenerAdapter {
 
     public void onGuildVoiceMove(GuildVoiceMoveEvent event) {
         event.getGuild().getTextChannelsByName(STATICS.LOG_CHANNEL, true).get(0).sendMessage("**:loudspeaker: Voice update " + event.getMember().getUser().getName() + " **moved from: **" + event.getChannelLeft().getName() + " **to: **" + event.getChannelJoined().getName() + "**").queue();
+
         if(event.getChannelLeft().getName().toLowerCase().equals(STATICS.GASCHAMBER_NAME) && STATICS.GAS_MEMBERS.get(event.getMember())) {
             GuildController gc = new GuildController(event.getGuild());
             gc.moveVoiceMember(event.getMember(), event.getGuild().getVoiceChannelsByName(STATICS.GASCHAMBER_NAME, true).get(0)).queue();
