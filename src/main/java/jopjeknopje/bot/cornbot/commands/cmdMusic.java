@@ -73,6 +73,11 @@ public class cmdMusic implements Command {
 
     private void loadTrack(String identifier, Member author, Message msg) {
 
+        if (author.getVoiceState().getChannel() == null) {
+            System.out.println("You are not in a Voice Channel!");
+            return;
+        }
+
         Guild guild = author.getGuild();
         getPlayer(guild);
 

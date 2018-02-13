@@ -72,6 +72,7 @@ public class TrackManager extends AudioEventAdapter {
 
         if (queue.isEmpty())
             g.getAudioManager().closeAudioConnection();
+
         else
             player.playTrack(queue.element().getTrack());
     }
