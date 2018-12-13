@@ -1,1 +1,2 @@
 # CornBot
+Project's dead.
